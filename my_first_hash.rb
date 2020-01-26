@@ -1,6 +1,5 @@
-def my_hash(key, value)
- my_hash = Hash.new
- my_hash[key] = value
+def my_hash
+ my_hash = {"name" =>  "damon"}
 end
 
 
